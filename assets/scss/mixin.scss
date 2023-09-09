@@ -1,0 +1,11 @@
+@mixin flex-box($di, $ju, $al){
+    display: flex;
+    justify-content: $ju;
+    align-items: $al;
+}
+
+@mixin line-70 ($color){
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid $color;
+}
